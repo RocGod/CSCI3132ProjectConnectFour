@@ -29,7 +29,7 @@ void Board::Display() {
 		cout << i + 1 << " ";
 		for (unsigned int j = 0; j < board.size(); j++) {
 			if (i + 1 > board[j].size()) {
-				cout << "_" << " ";
+				cout << "-" << " ";
 			} else {
 				cout << board[j][i].getLabel() << " ";
 			}
